@@ -15,24 +15,9 @@ if (imagemElemento == null) {
 
 function trocar() {
   imagemElemento.src = imagens[index];
-  index > 1 ? (index = 0) : index++;
+  index > 2 ? (index = 0) : index++;
 }
 
 window.onload = function () {
   setInterval(trocar, 5000);
 };
-
-// function trocaImagem() {
-//   let seg = tempo.getSeconds();
-
-//   if (seg < 5) {
-//     imagem.setAttribute("src", "../imagens/allianzparque.jpeg");
-//   } else if (seg < 15) {
-//     imagem.setAttribute("src", "../imagens/morumbi.jpg");
-//   } else if (seg < 20) {
-//     imagem.setAttribute("src", "../imagens/vilabelmiro.jpeg");
-//   } else {
-//     imagem.setAttribute("src", "../imagens/arenacorinthians.jpeg");
-//   }
-
-// }
