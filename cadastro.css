@@ -59,6 +59,8 @@ main {
   font-size: 2.5em;
   background-color: rgb(84, 180, 84);
   align-items: center;
+  padding-bottom: 25%;
+  padding-top: 25%;
 }
 
 main div {
@@ -127,5 +129,6 @@ input {
 
   footer {
     text-align: right end;
+    padding: 0;
   }
 }
