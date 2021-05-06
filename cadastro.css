@@ -1,0 +1,131 @@
+* {
+  max-width: fit-content;
+  max-height: fit-content;
+  text-align: center;
+  color: white;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(15, 95, 15);
+}
+
+header {
+  background-color: rgb(15, 95, 15);
+}
+
+p {
+  font-size: 3rem;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 1rem;
+  display: inline; /* inline para desktop e grid para mobile*/
+}
+
+li a {
+  padding: 6px 12px;
+  margin: 0;
+  border: 0px solid;
+  background: green;
+  text-decoration: none;
+  color: #fff;
+  /* cantos arredondados */
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.cad {
+  list-style: none;
+  margin: 1rem;
+  display: grid;
+  height: 2rem;
+}
+
+li a:hover {
+  background: #ccc;
+  color: #000;
+  border-color: #000;
+}
+
+main {
+  font-size: 2.5em;
+  background-color: rgb(84, 180, 84);
+  align-items: center;
+}
+
+main div {
+  padding-bottom: 4%;
+  padding-top: 4%;
+  align-items: center;
+}
+
+footer {
+  text-align: right end;
+}
+
+input {
+  color: rgb(26, 26, 26);
+}
+
+.cad button {
+  background-color: green;
+}
+
+@media (max-width: 700px) {
+  li {
+    list-style: none;
+    margin: 1rem;
+    display: grid; /* inline para desktop e grid para mobile*/
+  }
+
+  li a {
+    padding: 5px 10px;
+    margin: 0;
+    border: 0px solid;
+    background: green;
+    text-decoration: none;
+    color: #fff;
+    /* cantos arredondados */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+  li a:hover {
+    background: #ccc;
+    color: #000;
+    border-color: #000;
+  }
+
+  main {
+    font-size: 2.5em;
+    background-color: rgb(84, 180, 84);
+    align-items: center;
+  }
+
+  main div {
+    padding-bottom: 4%;
+    padding-top: 4%;
+    align-items: center;
+  }
+
+  input {
+    color: rgb(26, 26, 26);
+  }
+
+  button {
+    background-color: rgb(15, 95, 15);
+    margin-bottom: 1rem;
+  }
+
+  footer {
+    text-align: right end;
+  }
+}
